@@ -249,7 +249,7 @@ a {
 }
 .primary.button:hover,
 .primary.button:focus {
-  background-color: var(--accent-color);
+  background-color: #188CE8;
 }
 /* = = == = = = == = = =Список преимуществ = = = = == = == */
 .features {
@@ -471,9 +471,11 @@ a {
 
 /* - -- -- - ---- - - -- - Футер - - -- -- -- -- */
 
+
 .basement {
   display: flex;
-  align-items: center;
+  align-items: baseline;
+}
 }
 .logo-address {
   display: flex;
