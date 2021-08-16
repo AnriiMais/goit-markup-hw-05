@@ -61,7 +61,7 @@
         <section class="greeting">
             <div class="greet-box container">
                 <h1 class="greeting-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="primary button">Заказать услугу</button>
+                <button type="button" class="primary button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
 <!-- - - -- - -- -- - - -- - - -- - -- -Особенности- - - - -- - - -- - -- -- - --->
@@ -354,6 +354,19 @@
 
         </div>
     </footer>
+<!-- - - - - -- - - - - -- - - - -- - MODAL WINDOW - -- - - - - - -- - - - -- -- - -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="btn-close" data-modal-close>
+                <svg width="30" height="30" class="btn-close-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./jscript/modal.js"></script>
+   
+
 </body>
 
 </html>
